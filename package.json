@@ -1,0 +1,39 @@
+{
+  "id": "deki-raspberrypi-integration",
+  "displayName": "Raspberry Pi Integration",
+  "description": "Build targets for Raspberry Pi boards: the Pico SDK for RP2040 and RP2350 (Pico, Pico 2 and boards built on them)",
+  "minEngine": "0.40.0",
+  "buildDefine": "DEKI_PACKAGE_RASPBERRYPI",
+  "requires": [
+    "deki-i2c",
+    "deki-spi",
+    "deki-gpio",
+    "deki-sdcard"
+  ],
+  "features": [
+    {
+      "id": "display_worker",
+      "displayName": "Display present worker (core 1)",
+      "defaultEnabled": true,
+      "componentTypes": [],
+      "requires": [
+        "deki-display"
+      ]
+    }
+  ],
+  "dependencies": {
+    "pico": [
+      "pico_stdlib",
+      "pico_multicore",
+      "pico_unique_id",
+      "hardware_spi",
+      "hardware_i2c",
+      "hardware_dma",
+      "hardware_pwm",
+      "hardware_gpio",
+      "hardware_sync",
+      "hardware_flash",
+      "hardware_vreg"
+    ]
+  }
+}

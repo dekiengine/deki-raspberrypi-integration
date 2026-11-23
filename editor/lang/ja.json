@@ -1,0 +1,19 @@
+{
+    "Build for Raspberry Pi RP2040 and RP2350 boards with the Pico SDK, and flash them over USB": "Pico SDK で Raspberry Pi の RP2040 と RP2350 のボード向けにビルドし、USB で書き込みます",
+    "The compiler for Raspberry Pi Pico boards (bare-metal Arm), from Arm": "Raspberry Pi Pico のボード用のコンパイラー (ベアメタル Arm)。Arm が提供しています",
+    "Raspberry Pi's SDK for the RP2040 and RP2350": "Raspberry Pi が提供する RP2040 と RP2350 用の SDK",
+    "The USB stack the Pico SDK uses for USB serial, at the version Pico SDK 2.3.1 pins": "Pico SDK が USB シリアルに使う USB スタック。Pico SDK 2.3.1 が固定しているバージョンです",
+    "Assembles the programs of the Pico's PIO blocks, from Raspberry Pi": "Pico の PIO ブロックのプログラムをアセンブルします。Raspberry Pi が提供しています",
+    "Raspberry Pi's tool the Pico SDK runs on a finished program": "Pico SDK が完成したプログラムに使う Raspberry Pi のツール",
+    "No archive is pinned for this host yet; Raspberry Pi Pico builds need a Windows x86_64 machine for now": "このホスト向けのアーカイブはまだ固定されていません。現在、Raspberry Pi Pico のビルドには Windows x86_64 のマシンが必要です",
+    "Raspberry Pi Pico": "Raspberry Pi Pico",
+    "Chip": "チップ",
+    "Board": "ボード",
+    "Flash Size (KB)": "フラッシュサイズ (KB)",
+    "Serial Output": "シリアル出力",
+    "Clock (kHz)": "クロック (kHz)",
+    "USB and UART": "USB と UART",
+    "USB": "USB",
+    "UART": "UART",
+    "The game's data goes right after the program, so either can grow while both fit the flash. With USB serial, Flash can restart a running game to flash it. A clock of 0 keeps the chip's own.": "ゲームのデータはプログラムのすぐ後ろに置かれるので、両方がフラッシュに収まる限りどちらも大きくできます。USB シリアルがあれば、書き込みのときに実行中のゲームを再起動して書き込めます。クロックが 0 ならチップの標準のままです。"
+}

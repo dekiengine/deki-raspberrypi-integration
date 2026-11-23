@@ -1,0 +1,19 @@
+{
+    "Build for Raspberry Pi RP2040 and RP2350 boards with the Pico SDK, and flash them over USB": "用 Pico SDK 为 Raspberry Pi RP2040 和 RP2350 开发板构建，并通过 USB 烧录",
+    "The compiler for Raspberry Pi Pico boards (bare-metal Arm), from Arm": "Raspberry Pi Pico 开发板的编译器（裸机 Arm），由 Arm 提供",
+    "Raspberry Pi's SDK for the RP2040 and RP2350": "Raspberry Pi 为 RP2040 和 RP2350 提供的 SDK",
+    "The USB stack the Pico SDK uses for USB serial, at the version Pico SDK 2.3.1 pins": "Pico SDK 用于 USB 串口的 USB 协议栈，为 Pico SDK 2.3.1 固定的版本",
+    "Assembles the programs of the Pico's PIO blocks, from Raspberry Pi": "汇编 Pico 的 PIO 模块程序，由 Raspberry Pi 提供",
+    "Raspberry Pi's tool the Pico SDK runs on a finished program": "Pico SDK 对构建好的程序运行的 Raspberry Pi 工具",
+    "No archive is pinned for this host yet; Raspberry Pi Pico builds need a Windows x86_64 machine for now": "此主机还没有固定的压缩包；目前 Raspberry Pi Pico 构建需要一台 Windows x86_64 机器",
+    "Raspberry Pi Pico": "Raspberry Pi Pico",
+    "Chip": "芯片",
+    "Board": "开发板",
+    "Flash Size (KB)": "Flash 大小 (KB)",
+    "Serial Output": "串口输出",
+    "Clock (kHz)": "时钟 (kHz)",
+    "USB and UART": "USB 和 UART",
+    "USB": "USB",
+    "UART": "UART",
+    "The game's data goes right after the program, so either can grow while both fit the flash. With USB serial, Flash can restart a running game to flash it. A clock of 0 keeps the chip's own.": "游戏数据紧跟在程序之后，只要两者合起来放得进 Flash，任一方都可以变大。有 USB 串口时，烧录可以重启正在运行的游戏再烧录。时钟为 0 时使用芯片自己的时钟。"
+}
